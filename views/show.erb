@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Checkout!</title>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <form method = "post" action= "/checkout">
+        <div>
+            <p> Cart: <%= params[:item] %>  </p>    
+        </div>    
+        <input type= "submit" id= "submit">
+    </form>
+ </body>
+</html>    
